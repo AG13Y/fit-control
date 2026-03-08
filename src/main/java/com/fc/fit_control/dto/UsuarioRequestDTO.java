@@ -19,5 +19,7 @@ public record UsuarioRequestDTO(
 
         @NotEmpty
         Set<Role> roles
+
+
 ) {
 }
